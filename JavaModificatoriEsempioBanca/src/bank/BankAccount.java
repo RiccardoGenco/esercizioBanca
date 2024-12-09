@@ -21,7 +21,7 @@ public class BankAccount extends Funzione {
     protected void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("Depositato: €" + amount);
+            System.out.println("hai Depositato: €" + amount);
             aggiornaCronologia(amount);
         } else {
             System.out.println("Importo non valido!");
@@ -48,3 +48,4 @@ protected void stamp() {
         return this.accountHolderName.equals(name);
     }
 }
+//brench di Riccardo
